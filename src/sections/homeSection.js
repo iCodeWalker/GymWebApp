@@ -1,7 +1,9 @@
 import React from "react";
 
+import "./homeSection.scss";
+
 const HomeSection = () => {
-  return <div>Home Section</div>;
+  return <div className="home-container">Home Section</div>;
 };
 
 export default HomeSection;
